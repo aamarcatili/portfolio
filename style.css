@@ -1,0 +1,108 @@
+  header {
+    font-size:26px;
+    background: white;
+    opacity: 0.7;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 15px;
+
+  }  
+
+  header .logo h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+  header ul {
+    list-style: none;
+}
+  header ul li>a {
+    text-decoration: none;
+  
+}
+  header ul li {
+    font-family: 'Indie Flower', cursive;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+  }
+video {
+    height: 800px; 
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    bottom: ;ackground: url('nivel1/workshop1/nav.jpg') no-repeat;
+    background-size: cover;
+  transition: 1s opacity;
+}
+  .video-div {
+    height: 800px;
+  }
+#timelapse p {
+   column-count: 2;
+   text-align: center;
+}
+#timelapse { 
+
+  font-family:'Indie Flower';
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 45%;
+  margin:1rem;
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+
+#portfolio {
+  background-color: white;
+  height: 400px;
+  box-sizing: border-box;
+}
+.desktop {
+    background: url(monitor1.png);
+    position: relative;
+    height: 330px;
+    width: 410px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 390px 390px;
+    background-position: 50% 50%;
+
+}
+
+.contenido {
+    width: 346px;
+    height: 198px;
+    position: absolute;
+    left: 31px;
+    top: 28px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 5px;
+}
+.overf {
+  max-width: 100%;
+}
