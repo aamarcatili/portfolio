@@ -302,11 +302,17 @@ h2 {
 footer h4{
     text-align: center;
     font-family: 'indie Flower';
-    font-size: 15px;
-    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 35px;
+
 }
 
 /*No style nav */
 header nav ul li a:visited, a:hover, a:active, a:focus {
   color:black;
+}
+
+@media screen and (max-width: 380px) {
+
 }
