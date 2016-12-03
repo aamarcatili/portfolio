@@ -1,7 +1,10 @@
+html {
+  overflow-x: hidden;
+}  
   header {
     font-size:26px;
     background: white;
-    opacity: 0.7;
+    opacity: 0.9;
     display: inline-flex;
     align-items: center;
     flex-direction: row;
@@ -44,12 +47,11 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-    bottom: ;ackground: url('nivel1/workshop1/nav.jpg') no-repeat;
     background-size: cover;
-  transition: 1s opacity;
+    transition: 1s opacity;
 }
   .video-div {
-    height: 800px;
+    height: 600px;
   }
 #timelapse p {
    column-count: 2;
@@ -59,11 +61,11 @@ video {
 
   font-family:'Indie Flower';
   font-weight:100; 
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,0.8);
   color: white;
   box-sizing: border-box;
   padding: 2rem;
-  width: 45%;
+  width: 60%;
   margin:1rem;
   float: right;
   font-size: 1.2rem;
@@ -81,6 +83,15 @@ h1 {
   height: 400px;
   box-sizing: border-box;
 }
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'indie Flower';
+  font-size: 60px;
+  padding:10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
 .desktop {
     background: url(monitor1.png);
     position: relative;
@@ -91,6 +102,53 @@ h1 {
     background-size: 390px 390px;
     background-position: 50% 50%;
 
+}
+.contenedor {
+    background: url(iphone.png);
+    position: absolute;
+    left: 420px;
+    bottom: -590px;
+    height: 190px;
+    width: 111px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 111px 190px;
+    background-position: 45% 40%; 
+}
+.ipad-contenedor {
+    background: url(ipad.png);
+    position: absolute;
+    left: 710px;
+    bottom: -590px;
+    height: 200px;
+    width: 253px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 250px 190px;
+    background-position: 45% 40%;
+}
+
+.ipad {
+
+    width: 84%;
+    height: 142px;
+    position: relative;
+    left: 11px;
+    top: 29px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 4px;
+}
+
+.iphone {
+    width: 88px;
+    height: 130px;
+    position: relative;
+    left: 11px;
+    top: 29px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 1px;
 }
 
 .contenido {
@@ -105,4 +163,150 @@ h1 {
 }
 .overf {
   max-width: 100%;
+}
+
+#contact {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 102px;
+    background-color: #ffffff;
+    box-sizing:border-box;
+}
+#contacto h2 {
+
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'indie Flower';
+  font-weight: bold;
+  font-size: 60px;
+  padding:10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.texto-formulario, .texto-formulario-primero {
+  width: 90%;
+  font-family: 'Indie Flower', sans-serif;
+  font-weight: 400; 
+  font-size: 20px;
+  line-height: 4rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #EEEEEE;
+
+
+}
+
+
+.texto-formulario-primero{
+  border-top: 1px solid #EEEEEE;
+}
+
+
+.texto-formulario-largo{
+  margin-top: 20px;
+  width: 90%;
+  height: 250px;
+  font-family: 'Indie Flower', sans-serif;
+  font-weight: 400; 
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+
+.izquierda{
+  text-align: left;
+}
+
+
+.boton{
+  padding: 20px;
+  margin: 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: #365899;
+  color:white;
+}
+#social-media {
+  height: 350px;
+  box-sizing: border-box;
+  margin: 20px;
+  padding:5px;
+}
+#social-media h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'indie Flower';
+  font-weight: bold;
+  font-size: 60px;
+  padding:10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.social { 
+  justify-content: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50px;
+  text-decoration: none;
+  width:100%;
+}
+
+.facebook a, .instagram a, .linkedin a, .github a{
+   justify-content: center;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+}
+
+.facebook, .instagram, .linkedin, .github {
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid darkgrey;
+  background-color: black;
+  color:white;
+  margin:20px;
+  box-sizing:border-box;
+ 
+
+}
+.ion {
+  color:white;
+}
+#social-media .social .ion a{
+  color:white;
+  transition: color ease-in 2s;
+  
+}
+.facebook a:hover i { 
+  color:#365899;
+}
+.instagram a:hover i{
+  color:brown;
+} 
+.linkedin a:hover i {
+  color:#51b1ff;
+}
+.github a:hover i{
+  color:#a21fa2;
+}
+footer h4{
+    text-align: center;
+    font-family: 'indie Flower';
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+/*No style nav */
+header nav ul li a:visited, a:hover, a:active, a:focus {
+  color:black;
 }

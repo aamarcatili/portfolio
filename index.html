@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shrikhand|Taviraj" rel="stylesheet">
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+
 
 
 </head>
@@ -21,10 +24,10 @@
 		<ul>
 			<li><a href="#video">About</a></li>
 			<li><a href="#portfolio">Portfolio</a></li>
-			<li>Contact</li>
-			<li>Social Media</li>
+			<li><a href="#contact">Contacto</a></li>
+			<li><a href="#social-media">Social Media</a> </li>
 		</ul>
-	</nav>
+	</nav>	
 </header>
 
 <!-- Section 1 : About. ( muted video coding ) -->
@@ -38,23 +41,61 @@
 			<div id="timelapse">
 				<h1>Developer story</h1>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aspernatur corporis dolor ipsam mollitia, quia incidunt sapiente optio fugiat earum quisquam, ipsum, architecto doloribus distinctio odio repellat! Tempore nam non culpa ad veritatis, provident velit cupiditate ipsam autem nihil molestias debitis illum, unde ipsa modi porro, excepturi! Similique commodi alias aut delectus rerum recusandae inventore autem quas non ipsum atque dignissimos quae libero quia placeat accusantium ducimus dolore iste, in, officiis facere. Praesentium reiciendis exercitationem ab iure possimus libero nihil quo perspiciatis. Excepturi sint recusandae est corrupti suscipit consequuntur autem! Ad dicta enim temporibus assumenda non, mollitia sint perspiciatis nesciunt.</p>
+				<p>Hola !
+				Mi nombre es Alejandro Marcatili y en julio del 2016 comence con esta aventura en el desarrollo web. Comence mis estudios en distintas plataformas virtuales hasta que decidi profundizar un poco mas y comence a estudiar en CoderHouse y en la UNLP. Hoy en dia estoy enfocado al desarrollo Front-end. Para conocer mas de mi y mis trabajos te invito a pasear por mi portfolio.</p>
 			</div>
 		</div>
 	</section>
 
 <!-- section 2 : portfolio.( devices & slide through  http://ami.responsivedesign.is ) -->
 	<section id="portfolio">
+		<h2>my responsive work</h2>
 			<div class="desktop">
 				<div class="contenido">
-					<img  class="overf"src="tp1.jpg" alt="">
+					<img  class="overf"src="tp1.jpg" alt="monitor">
+				</div>
+
+			</div>
+			<div class="contenedor">
+				<div class="iphone">
+					<img  class="overf"src="tp1.jpg" alt="iphone">
+				</div>
+			</div>	
+			<div class="ipad-contenedor">
+				<div class="ipad">
+					<img class="overf" src="tp1.jpg" alt="ipad">
 				</div>
 			</div>
 	</section>
 <!-- section 3 : Contact. ( basic form with mailto:) -->
-
+	<section id="contact">
+		<h2>You can reach me </h2>
+		<div class="formulario-contacto">
+			<form class="izquierda">
+				<input class="texto-formulario-primero" type="text" name="name" placeholder="Name" required>
+				<input class="texto-formulario" type="text" name="name" placeholder="Email Address" required>
+				<input class="texto-formulario" type="text" name="name" placeholder="Phone Number" required>
+				<textarea class='texto-formulario-largo' rows="4" placeholder="Message" required></textarea>
+				<br>
+				<input class='boton white bkg-green' type="submit"onclick="alert('Thanks for reaching me')" name="send" value="Send">
+			</form>
+		</div>
+		
+	</section>
 <!-- footer Social & copyright( Lin Fbook Instam) -->
+	<section id="social-media">
+		<h2> Also find me at :</h2>
+		<div class="social">
+			<div class="facebook"><a href="https://www.facebook.com/alejandro.marcatili" target="blank"><i class="ion ion-social-facebook"></i></a></div>
+			<div class="instagram"><a href="https://www.instagram.com/alejandromarcatili/" target="blank"><i class="ion ion-social-instagram-outline "></i></a></div>
+			<div class="linkedin"><a href="https://ar.linkedin.com/in/aamarcatili" target="blank"><i class="ion ion-social-linkedin"></i></a></div>
+			<div class="github"><a href="https://github.com/aamarcatili" target="blank"><i class="ion ion-social-github"></i></a></div>
+		</div>
 
+	</section>
+	<footer>
+		<h4>copyright@ valhalla Studio 2016</h4>
+	</footer>
 
 
 </body>
